@@ -1,8 +1,13 @@
-This repository contains the files used for a git lesson.
+'''git experiments'''
 
-Make another change to this file
+class ClassName(object):
+	"""Generic classname"""
+	def __init__(self, arg):
+		self.arg = arg
 
-This is a commit that I forgot about
+	def method(self):
+		a = 10
+		for i in range(5):
+			print(a + i)
 
-I'm adding another change to make diff useful
-
+		
